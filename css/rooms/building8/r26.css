@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+li{
+  list-style: none;
+  padding: 2px;
+}
+body{
+  background-color: rgb(255, 254, 240);
+}
+.header {
+  height: 80px;
+  width: 1900px;
+  background: rgba(0, 34, 255, 0.823);
+}
+.header ul {
+  float: right;
+  margin-right: 20px;
+}
+.header ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 70px;
+}
+.header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.header ul li a:hover {
+  background: rgb(255, 149, 0);
+
+}
+#title{
+  
+  float: left;
+  margin: 0 15px;
+  line-height: 70px;
+  color: white;
+  font-size: 50px;
+}
+#middle{
+  background-color: rgb(255, 255, 255);
+  width: 1900px;
+  height: 1000px;
+  margin: 0 auto;
+  display: inline-block;
+}
+/*  */
+#middle div{
+  position: absolute;
+}
+.left{
+  width: 300px;
+  height:  1000px;
+  position: absolute;
+  background-image: linear-gradient(rgb(0, 34, 255), yellow);
+}
+.right{
+  width: 300px;
+  height:  1000px;
+  position: absolute;
+  background-image: linear-gradient(rgb(0, 34, 255), yellow);
+  left: 1600px;
+}
+.return{
+  left: 310px;
+  display: block;
+  font-size: 20px;
+}
+.return a:hover{
+  color: rgb(0, 255, 255);
+}
+.image{
+  width: 450px;
+  height: 500px;
+  position: absolute;
+  left: 1065px;
+  top: 480px;
+  border: 5px;
+  background-color: green;
+  background: url('/images/MEBUILDING/Comet\ Ofiice.jpg');
+  background-size: cover;
+  background-position: center;
+  border-style: solid ;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: blue;
+}
+.details{
+  width: 450px;
+  height: 300px;
+  border: 5px;
+  border-style: solid;
+  left:1065px;
+  top: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: blue;
+  background-color: rgba(255, 238, 0, 0.13);
+}
+.bold{
+  font-weight: bolder;
+  color: black;
+}
+.room{
+    top: 210px;
+    left: 330px;
+    width: 700px;
+    height: 700px;   
+    background-image: url(/images/acad/r26.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+}
+.title{
+    text-align: center;
+    width: 700px;
+    position: absolute;
+    left: 330px;
+    top: 150px;
+    border-style: solid;
+    background-color: rgba(255, 238, 0, 0.13); 
+    border-width: 5px;
+    border-color: blue;
+}

@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+li{
+  list-style: none;
+  padding: 2px;
+}
+body{
+  background-color: rgb(255, 254, 240);
+}
+.header {
+  height: 80px;
+  width: 1900px;
+  background: rgba(0, 34, 255, 0.823);
+}
+.header ul {
+  float: right;
+  margin-right: 20px;
+}
+.header ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 70px;
+}
+.header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.header ul li a:hover {
+  background: rgb(255, 149, 0);
+
+}
+#title{
+  
+  float: left;
+  margin: 0 15px;
+  line-height: 70px;
+  color: white;
+  font-size: 50px;
+}
+#middle{
+  background-color: rgb(123, 110, 110);
+  width: 1900px;
+  height: 1080px;
+  margin: 0 auto;
+  display: inline-block;
+}
+/*  */
+#middle div{
+  position: absolute;
+}
+.left{
+  width: 300px;
+  height: 1080px;
+  position: absolute;
+  background-image: linear-gradient(rgba(0, 34, 255, 0.823), yellow);}
+.right{
+  width: 300px;
+  height: 1080px;
+  position: absolute;
+  background-image: linear-gradient(rgba(0, 34, 255, 0.823), yellow);  left: 1600px;
+}
+.title{
+  text-align: center  ;
+}
+.description{
+  width: 800px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  left: 800px;
+}
+.description h2{
+  text-align: justify;
+  padding: 5px 15px;
+}
+.image{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 300px;
+  background-color: green;
+  background: url('/images/1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.rooms{
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  left: 800px;
+  top: 280px;
+  border-top: 6px solid rgba(0, 34, 255, 0.823);
+}
+.rooms h2{
+  text-align: center;
+}
+.first{
+  position: absolute;
+  left: 20px;
+}
+.first ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.first ul li a:hover{
+  color: rgb(0, 178, 131);
+}
+.second ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.second ul li a:hover{
+  color: rgb(0, 178, 131);
+}
+.third ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.third ul li a:hover{
+  color: rgb(0, 178, 131);
+}
+.fourth ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.fourth ul li a:hover{
+  color: rgb(0, 178, 131);
+}
+.second{
+  position: absolute;
+  left: 190px;
+}
+.third{
+  position: absolute;
+  left: 400px;
+}
+.fourth{
+  position: absolute;
+  left: 600px;
+}
+.route{
+position: absolute;
+width: 1300px;
+height: 580px;
+background-color: rgb(255, 255, 255);
+left: 300px;
+top: 580px;
+border-top: 6px solid rgba(0, 34, 255, 0.823);
+}.slider{
+  margin: 20px auto;
+  align-items: center;
+}
+.image-box img{
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  left: 300px;
+}
+.btn{
+  border: none;
+  outline: none;
+  background: #888;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #ddd;
+  cursor: pointer;
+  margin: 10px 15px;
+  
+}
+.btn:hover{
+  background: #111;
+}
+.prev{
+  position: absolute;
+  left: 480px;
+  top: 400px;
+}
+.next{
+  position: absolute;
+  left: 650px;
+  top: 400px;
+}
+
